@@ -1,0 +1,142 @@
+body{
+    background-color:#FEFEFE;
+}
+
+br{line-height:10px}
+
+li{
+	text-decoration: none;
+	display:inline;
+	background-color: white;
+	color: black;
+}
+
+a{ color: #69696A;
+   font-family: Arial;
+   font-size: 14px;
+   padding:2vw;
+   text-decoration: none;
+  }
+
+h1{ color: #4E829F;
+    font-family: Helvetica;
+    font-size: 40px;
+    padding:15px;
+    line-height:40px
+  }
+
+h2{ color: #162C4C;
+    font-family:Arial;
+    font-size:18px;
+    padding:15px;
+    line-height:40px;
+  }
+
+h3{ color: #162C4C;
+      font-family:Times;
+      font-style: italic;
+      font-size:20px;
+      padding:15px;
+  }
+
+h4{ color: #FEFEFE;
+      font-family:Arial;
+      font-size: 12px;
+      padding:15px;
+      line-height:20px
+    }
+
+p{ color: #656565;
+    font-family:Arial;
+    font-size: 14px;
+    padding:15px;
+    line-height:30px
+  }
+
+nav a{color: purple;
+     font-family: cursive;
+     text-decoration: none;
+}
+
+
+
+.high_light{color: #4E829F;
+  text-transform: uppercase;
+  padding:2px
+}
+
+.outer{
+    background-color: #6593D8;
+}
+
+.inner{
+    margin:auto;
+    background-color: #D0E3FE;
+    width:100vw ;
+    height:100vw ;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #4E829F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.project_logo{
+  box-sizing:border-box;
+  width:30vw;
+  height:30vw;
+  margin-left:10vw;
+  margin-right:10vw;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.site-footer {
+  background: #4E829F;
+}
+
+#footer1{
+margin-left:2%;
+float:left;
+
+}
+#footer2{
+margin-right:2%;
+float:right;
+}
